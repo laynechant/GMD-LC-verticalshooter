@@ -12,12 +12,6 @@ public class Enemy : MonoBehaviour
         respawnX = transform.position.x;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Respawn()
     {
         gameObject.SetActive(true);
