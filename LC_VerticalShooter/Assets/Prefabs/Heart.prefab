@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 533825051239854065}
   - component: {fileID: 5283553353980274712}
   - component: {fileID: 7837048522958980309}
-  - component: {fileID: -8171415564829861035}
   m_Layer: 5
   m_Name: Heart
   m_TagString: Heart
@@ -76,26 +75,3 @@ MonoBehaviour:
   m_FillOrigin: 2
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-8171415564829861035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6078552731912310557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3892170a889604f4e81c1809e8e1aea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: f625f6cfa8cd94ba199a14392ad89857, type: 3}
-  - {fileID: 21300000, guid: 4c2b7c05666fa7938ba4d416d5cc8fe2, type: 3}
-  - {fileID: 21300000, guid: 338780b9b05c7802d83163070848bf58, type: 3}
-  - {fileID: 21300000, guid: 65553f3fe2a6bb619864a28833e27f1b, type: 3}
-  - {fileID: 21300000, guid: f625f6cfa8cd94ba199a14392ad89857, type: 3}
-  currentHealth: 4
-  maxHealth: 4
-  crossFadeToAlpha: 0
-  crossFadeToOpaque: 1
-  crossFadeTime: 3

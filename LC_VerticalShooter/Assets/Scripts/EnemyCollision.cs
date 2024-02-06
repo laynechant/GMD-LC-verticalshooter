@@ -12,5 +12,6 @@ public class EnemyCollision : MonoBehaviour
     {
         Instantiate (explosionPrefab, transform.position, transform.rotation);
         Destroy(gameObject);
+       
     }
 }

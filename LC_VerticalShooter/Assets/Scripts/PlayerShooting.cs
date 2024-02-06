@@ -10,7 +10,7 @@ public class PlayerShooting : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Co_ShootRoutine());
+        
     }
 
     // Update is called once per frame
@@ -32,19 +32,6 @@ public class PlayerShooting : MonoBehaviour
             Destroy(bulletRB.gameObject, 2.0f);
 
 
-        
-    }
-
-
-    IEnumerator Co_ShootRoutine()
-    {
-        while (true)
-        {
-           // yield return new WaitForEndOfFrame();
-            yield return new WaitForSeconds(0.5f);
-           // yield return new WaitForSeconds(1.0f);
-            Shoot();
-        }
         
     }
 }
